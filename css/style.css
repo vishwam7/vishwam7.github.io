@@ -404,6 +404,8 @@ header {
 
 .portfolio__img {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
+    height: 153.66px;
+    width: 318.98px;
 }
 
 .portfolio__item:focus {
@@ -467,7 +469,7 @@ header {
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
-    max-width: 1000px;
+    max-width: 768px;
     margin: 0 auto;
 }
 
@@ -475,4 +477,26 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.mobile-ss {
+    max-height: 768px;
+    border-radius: 25px;
+    padding: 20 2em 2em;
+    margin: 0 auto;
+}
+
+.img_row {
+    display: flex;
+}
+
+.img_column {
+    flex: 50%;
+    padding: 5px;
+}
+
+.deployment_icon {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
 }

@@ -1,60 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevVishwam Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        <!-- Update these with your own fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
 
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="img/devjane.png" alt="">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevVishwam Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devjane.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
             </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!--Introduction-->
-        <Section class="intro">
-        <h1 class="section__title section__title--intro">
-        The title <Strong>of my project</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img src="img/portfolio-03.jpg" alt="a picture of vishwam smiling" class="intro__img">
-        </section>
-
-        <div class="portfolio-item-individual">
-            <p>Nulla eiusmod consequat duis ea eiusmod irure deserunt mollit labore laborum. Aute irure ut velit pariatur mollit amet consequat dolor ad. In laboris nulla ad non ullamco velit sunt eu magna ea Lorem est. Magna duis ullamco id commodo qui culpa voluptate qui. Adipisicing commodo reprehenderit aute irure et velit dolor esse exercitation sit tempor commodo et anim. Laboris fugiat ullamco sunt amet sunt anim nulla proident consectetur. Qui id nisi ad reprehenderit nostrud veniam deserunt ex ullamco exercitation irure culpa cillum.</p>
-            <img src="img/portfolio-03.jpg" alt="">
-            <p>Sint cillum sit consequat officia adipisicing elit duis excepteur excepteur. Cupidatat exercitation consectetur amet quis sit nostrud officia enim ut eu consequat deserunt. Est exercitation esse aliquip Lorem. Ea Lorem veniam officia veniam. Occaecat excepteur eiusmod do excepteur duis Lorem anim enim culpa enim dolor cupidatat nulla incididunt. Ullamco consectetur magna aliqua consectetur sint pariatur id. Culpa culpa voluptate incididunt pariatur eu ea exercitation esse non ea sit.</p>
-            <p>Occaecat commodo deserunt magna fugiat enim sit exercitation aliqua commodo sint occaecat eiusmod reprehenderit fugiat. Fugiat amet velit aliqua mollit ad officia. Aliquip laborum ad tempor amet exercitation ea veniam culpa do cillum veniam ea deserunt laboris. Veniam sunt veniam ex Lorem ullamco et do.</p>
-        </div>
-
-        <!--footer-->
-        <footer class="footer">
-            <a href="mailto:shahvishwam7@gmail.com" class="footer__link">shahvishwam7@gmail.com</a>
-            <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link"
-            href="https://github.com/vishwam7"><i class="fab fa-github"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link"
-            href="www.linkedin.com/in/vishwam-shah-961398176"><i class="fab fa-linkedin"></i></a></li>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
             </ul>
-        </footer>
-        <script src="js/index.js"></script>
-    </body>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <Section class="intro">
+        <h1 class="section__title section__title--intro">
+            Pig Game
+            <Strong>Fun Dice Game</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">JavaScript HTML CSS</p>
+        <img src="img/portfolio-03.jpg" alt="a picture of vishwam smiling" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            <ul><strong>Rules:</strong></ul>
+            <ul>
+                <li>A two player game where two dices are rolled and player misses his/her turn if either of he dice have 1 digit face on it.</li>
+                <li>Player has two options available after rolling dice either continue rolling and making sum of the faces and adding it to the previous rolled sum or he/she can hold on to the sum they got.</li>
+                <li>Players can decide final score for win or by default it's 100.</li>
+            </ul>
+        </p>
+        <img src="img/portfolio-03-01.jpg" alt="">
+        <p>
+            <li>
+                Github:
+                <a href="https://github.com/vishwam7/pig-game"><i class="fab fa-github"></i>
+                </a>
+            </li>
+
+            <li>
+                Deployed Link:
+                <a href="https://adoring-turing-bac972.netlify.app/"><img src="img/deployment.png" class="deployment_icon">
+                </a>
+
+            </li>
+        </p>
+    </div>
+
+    <!--footer-->
+    <footer class="footer">
+        <a href="mailto:shahvishwam7@gmail.com" class="footer__link">shahvishwam7@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/vishwam7"><i class="fab fa-github"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="www.linkedin.com/in/vishwam-shah-961398176"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
 </html>
